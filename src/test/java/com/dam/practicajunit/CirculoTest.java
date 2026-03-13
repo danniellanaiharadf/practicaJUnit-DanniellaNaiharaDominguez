@@ -30,9 +30,10 @@ public class CirculoTest {
 
     @Test
     public void testCalcularArea() {
-        Circulo c = new Circulo(1);
-        assertEquals(Math.PI, c.calcularArea(), 0.0);
-    }
+    Circulo c = new Circulo(1.0);
+    // PI * 1^2 = PI
+    assertEquals(Math.PI, c.calcularArea(), 0.0);
+}
 
     @Test
     public void testCalcularPerimetro() {
