@@ -23,10 +23,10 @@ public class CirculoTest {
 
     @Test
     public void testSetRadio() {
-        Circulo c = new Circulo(3);
-        c.setRadio(10);
-        assertEquals(10, c.getRadio(), 0);
-    }
+    Circulo c = new Circulo();
+    c.setRadio(10.0);
+    assertEquals(10.0, c.getRadio(), 0.0);
+}
 
     @Test
     public void testCalcularArea() {
