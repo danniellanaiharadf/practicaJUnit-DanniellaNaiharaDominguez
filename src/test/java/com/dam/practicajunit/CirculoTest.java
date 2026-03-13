@@ -42,10 +42,10 @@ public class CirculoTest {
     assertEquals(12.56, c.calcularPerimetro(), 0.01);
 }
 
-    @Test
+   @Test
     public void testMostrarRadio() {
-        Circulo c = new Circulo(4);
-        assertEquals(4, Circulo.mostrarRadio(c), 0);
+        Circulo c = new Circulo(4.0);
+        assertEquals(4.0, c.getRadio(), 0.0);
     }
 
     @Test
