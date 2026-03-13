@@ -15,10 +15,10 @@ public class CirculoTest {
         assertEquals(0, c.getRadio(), 0);
     }
 
-    @Test
+   @Test
     public void testGetRadio() {
-        Circulo c = new Circulo(5);
-        assertEquals(5, c.getRadio(), 0);
+        Circulo c = new Circulo(5.0);
+        assertEquals(5.0, c.getRadio(), 0.0);
     }
 
     @Test
