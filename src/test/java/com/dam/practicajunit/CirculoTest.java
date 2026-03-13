@@ -37,9 +37,10 @@ public class CirculoTest {
 
     @Test
     public void testCalcularPerimetro() {
-        Circulo c = new Circulo(2);
-        assertEquals(2 * Math.PI * 2, c.calcularPerimetro(), 0.01);
-    }
+    Circulo c = new Circulo(2.0);
+    // 2 * PI * 2 = 12.5663...
+    assertEquals(12.56, c.calcularPerimetro(), 0.01);
+}
 
     @Test
     public void testMostrarRadio() {
