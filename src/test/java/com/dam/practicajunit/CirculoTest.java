@@ -32,7 +32,7 @@ public class CirculoTest {
     public void testCalcularArea() {
     Circulo c = new Circulo(1.0);
 
-    assertEquals(5.0, c.calcularArea(), 0.0);
+    assertEquals(Math.PI, c.calcularArea(), 0.0);
 }
 
     @Test
